@@ -16,6 +16,7 @@ import Requests from "./components/Requests.jsx"
           <Route path = "/" element= {<Body/>}>
             <Route path ="/feed" element = {<Feed/>}/>
             <Route path = "/login" element= {<Login/>}/>
+            <Route path = "/signup" element= {<Login/>}/>
             <Route path = "/profile" element= {<Profile/>}/>
             <Route path = "/connections" element= {<Connections/>}/>
             <Route path = "/requests" element= {<Requests/>}/>
